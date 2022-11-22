@@ -1,0 +1,182 @@
+/* 
+  ##Device = the Smartphones Mobiles (Galaxi fold)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+	h1{
+		font-size: 1.6rem !important;
+		line-height: 2rem !important;
+		margin-bottom: 2rem !important;
+
+	}
+	h2{
+		font-size: 1.4rem !important;
+		line-height: 1.9rem !important;
+		padding-bottom: 10px;
+	}
+	.wrapper {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+  .navigation-wrap .navbar-brand img{
+		height: 3rem;
+	}
+	.top-banner{
+		padding: 9rem 0 8rem!important;
+	}
+	.white-btn{
+		margin-top: 15px !important;
+	}
+	.story-section{
+		text-align: center;
+		height: auto;
+		padding: 3rem 0;
+	}
+	.story-section .main-btn{
+		text-align: center;
+	}
+	.main-btn{
+		padding: 0.625rem 1.2rem;
+	}
+	.white-btn {
+    padding: 0.625rem 1.48rem;
+}
+p {
+    font-size: 0.95rem !important;
+    line-height: 1.5rem !important;
+}
+.testimonial-section .carousel-item{
+		padding: 11rem 3.125rem;
+	}
+	.newsletter{
+  width: 85%;
+  margin: 0 auto;
+}
+.newsletter .main-btn{
+	width: 100%;
+	margin-top: 1rem;
+}
+.footer .footer-link,
+.footer a i{
+	padding: 0 0.5rem;
+}
+.footer{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 479px) {
+  
+  /* CSS */
+  h1{
+		font-size: 34px !important;
+		line-height: 43px !important;
+		margin-bottom: 2rem !important;
+	}
+	h2{
+		font-size: 1.7rem !important;
+		line-height: 2rem !important;
+	}
+
+  .navigation-wrap .navbar-brand img{
+		height: 3rem;
+	}
+	.top-banner{
+		padding: 9rem 0 8rem!important;
+	}
+	
+	.white-btn{
+		margin-top: 15px !important;
+	}
+	.story-section{
+		text-align: center;
+		height: auto;
+		padding: 3rem 0;
+	}
+	.story-section .main-btn{
+		text-align: center;
+	}
+	.testimonial-section .carousel-item{
+		padding: 11rem 3.125rem;
+	}
+	.newsletter{
+  width: 85%;
+  margin: 0 auto;
+}
+.newsletter .main-btn{
+	width: 100%;
+	margin-top: 1rem;
+}.footer{
+	width: 100%;
+	margin: 0 auto;
+}
+.footer .footer-link,
+.footer a i{
+	padding: 0 0.8rem;
+}
+  }
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+	.text-content{
+		width: 100%;
+	}
+	.navigation-wrap .navbar-brand img{
+		height: 3.8125rem;
+	}
+	.navigation-wrap{
+		text-align: center;
+		background-color: #fff;
+	}
+	.navigation-wrap .nav-link{
+		line-height: 1.875rem;
+	}
+	.top-banner{
+		padding: 9.375rem 0 9.375rem;
+	}
+	h1{
+		font-size: 2.8rem !important;
+		line-height: 3rem !important;
+	}
+	h2{
+		font-size: 2rem !important;
+		line-height: 2.0625rem !important;
+	}
+	.story-section{
+		height: auto !important;
+	}
+
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   /* CSS */
+.story-section{
+		height: auto !important;
+	}
+	.testimonial-section .carousel-item .carousel-caption p{
+		padding: 0;
+	}
+
+
+   }
